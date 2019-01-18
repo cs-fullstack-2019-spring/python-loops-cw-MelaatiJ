@@ -1,8 +1,8 @@
 def main():
     # Exercise1()
     # Exercise2()
-    Exercise3()
-    # Exercise4()
+    # Exercise3()
+    Exercise4()
 
 
 
@@ -47,17 +47,14 @@ def Exercise4():
     userPassword = input("Enter your a password")
     userConfirm = input("confirm your password")
     while(userPassword != userConfirm):
-        userPassword = input("Enter your a password")
-        userConfirm = input("confirm your password")
-        if(userInput!= userConfirm)
-            userquit = "quit"
+        userquit = input("enter 'quit' to if you dont know your password")
+        if(userquit == "quit"):
+            break
 
-   
+
     # Password Checker - Ask the user to enter a password.
     # Ask them to confirm the password.
     # If it's not equal, keep asking until it's correct or they enter 'Q' to quit.
-
-
 
 
 
